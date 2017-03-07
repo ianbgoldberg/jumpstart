@@ -1,6 +1,51 @@
 /* GLobal */
 
-/* Navagation */
+html {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.4;
+}
+
+/*
+.btn {
+  width: 11.4rem;
+  height: auto;
+  padding: 1.3rem 2rem;
+  border-radius: 2rem;
+}
+*/
+
+/* Navigation */
+
+nav {
+  padding: 1rem;
+}
+
+nav .nav li a {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+nav .nav li a:hover {
+  color: #399bd1;
+}
 
 /* Jumbotron */
 

@@ -94,6 +94,23 @@ nav .nav li a:hover {
   height: auto;
 }
 
+.featured-project div p {
+  margin-bottom: 0.5rem;
+}
+
 /* Projects */
 
+.projects {
+  margin-bottom: 5.85rem;
+}
+
+.projects div h2, h3, p {
+  margin: 1rem 0;
+  line-height: 1.25;
+}
+
+.projects div img {
+  width: 100%;
+  height: auto;
+}
 /* Help */

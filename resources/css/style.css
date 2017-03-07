@@ -3,6 +3,7 @@
 html {
   font-size: 14px;
   font-family: "Open Sans";
+  color: #000;
 }
 
 h1 {
@@ -12,15 +13,12 @@ h1 {
 h2 {
   font-size: 1.7rem;
   font-weight: 700;
+  color: #399bd1;
 }
 
 h3 {
   font-size: 1.3rem;
   font-weight: 700;
-}
-
-p {
-  line-height: 1.4;
 }
 
 .btn {
@@ -78,6 +76,23 @@ nav .nav li a:hover {
 }
 
 /* Featured Projects */
+
+.featured-project div h2 {
+  margin-bottom: 2rem;
+}
+
+.featured-project div h3 {
+  margin-bottom: 1rem;
+}
+
+.featured-project .categories h3 {
+  color: #399bd1;
+}
+
+.featured-project div img {
+  width: 100%;
+  height: auto;
+}
 
 /* Projects */
 

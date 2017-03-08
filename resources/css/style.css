@@ -29,48 +29,54 @@ h3 {
 
 /* Navigation */
 
-nav {
-  padding: 1rem;
+nav div {
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-nav .nav li a {
-  font-size: 1.1rem;
-  font-weight: 700;
+nav div .nav a.active {
+	color: #337ab7;
 }
 
-nav .nav li a:hover {
-  color: #399bd1;
+@media only screen and (max-width: 767px) {
+	nav .container-fluid img {
+		display: none;
+	}
 }
 
 /* Jumbotron */
 
 .jumbotron {
-  margin-top: 10rem;
-  padding: 11.85rem;
-  background-image: url('../images/jumbotron.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  margin-top: 3.175rem;
+  background: url('../images/jumbotron.png') no-repeat center;
 }
 
-.jumbotron div div h1 {
-  font-family: "Monoton";
-  font-size: 7.1rem;
-  color: #fff;
+.jumbotron div .text {
   text-align: center;
+  max-width: 51.3rem;
+  margin: 11.85rem auto;
+}
+
+.jumbotron div h1 {
+  font-family: "Monoton";
+  font-size: 5rem;
+  color: #fff;
   margin-bottom: 2rem;
 }
 
-.jumbotron div div p {
+.jumbotron div p {
   text-align: center;
-  max-width: 51.3rem;
   margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 767px) {
 
   .jumbotron {
-    margin-top: 20rem;
+    margin-top: 8.5rem;
   }
 
 }
@@ -114,20 +120,21 @@ nav .nav li a:hover {
   height: auto;
 }
 
-/* Help */
+/* Footer */
 
-.help {
+footer {
   background-color: #f3f3f3;
-  padding: 5.2rem 0;
+  text-align: center;
 }
 
-.help h1 {
+footer div {
+  max-width: 42rem;
+  margin: 5.2rem auto;
+
+}
+
+footer h1 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1.4rem;
-}
-
-.help p {
-  text-align: center;
-  max-width: 42rem;
 }

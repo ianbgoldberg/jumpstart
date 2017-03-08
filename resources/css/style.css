@@ -113,4 +113,21 @@ nav .nav li a:hover {
   width: 100%;
   height: auto;
 }
+
 /* Help */
+
+.help {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+}
+
+.help h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+
+.help p {
+  text-align: center;
+  max-width: 42rem;
+}

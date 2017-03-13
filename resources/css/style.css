@@ -30,9 +30,7 @@ h3 {
 /* Navigation */
 
 nav div {
-	display: flex;
-	align-items: center;
-  justify-content: space-between;
+	display: inline-block;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -40,6 +38,10 @@ nav div {
 
 nav div .nav a.active {
 	color: #337ab7;
+}
+
+nav div img {
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 767px) {
